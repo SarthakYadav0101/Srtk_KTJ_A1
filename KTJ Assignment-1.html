@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineStream - Your Ultimate Movie Discovery Platform</title>
+    <link rel="stylesheet" href="KTJ_A1.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#" class="logo">🎬 CineStream</a>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li><a href="#popular">Popular Shows</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <h1>CineStream</h1>
+                <p>Your Ultimate Movie Discovery Platform - Explore, Discover, and Stream the Best Movies and Shows</p>
+                <a href="#trending" class="cta-button">Explore Trending Movies</a>
+            </div>
+            <div class="hero-right">
+                <svg class="hero-svg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="filmGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#4ecdc4;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <!-- Film Strip -->
+                    <rect x="50" y="100" width="300" height="200" fill="url(#filmGradient)" rx="20"/>
+                    <!-- Film Holes -->
+                    <circle cx="80" cy="130" r="8" fill="white"/>
+                    <circle cx="80" cy="160" r="8" fill="white"/>
+                    <circle cx="80" cy="190" r="8" fill="white"/>
+                    <circle cx="80" cy="220" r="8" fill="white"/>
+                    <circle cx="80" cy="250" r="8" fill="white"/>
+                    <circle cx="80" cy="280" r="8" fill="white"/>
+                    
+                    <circle cx="320" cy="130" r="8" fill="white"/>
+                    <circle cx="320" cy="160" r="8" fill="white"/>
+                    <circle cx="320" cy="190" r="8" fill="white"/>
+                    <circle cx="320" cy="220" r="8" fill="white"/>
+                    <circle cx="320" cy="250" r="8" fill="white"/>
+                    <circle cx="320" cy="280" r="8" fill="white"/>
+                    
+                    <!-- Play Button -->
+                    <circle cx="200" cy="200" r="40" fill="white" opacity="0.9"/>
+                    <polygon points="185,175 185,225 225,200" fill="#ff6b6b"/>
+                    
+                    <!-- Stars -->
+                    <polygon points="150,50 155,65 170,65 158,75 163,90 150,80 137,90 142,75 130,65 145,65" fill="#FFD700"/>
+                    <polygon points="250,350 255,365 270,365 258,375 263,390 250,380 237,390 242,375 230,365 245,365" fill="#FFD700"/>
+                    <polygon points="350,80 355,95 370,95 358,105 363,120 350,110 337,120 342,105 330,95 345,95" fill="#FFD700"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trending Movies Section -->
+    <section id="trending" class="section">
+        <div class="section-title">
+            <h2>Trending Movies</h2>
+            <p>Discover the hottest movies everyone's talking about</p>
+        </div>
+        <div class="cards-container">
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1489599316567-54e2692431dd?w=300&h=200&fit=crop" alt="Dune">
+                <div class="card-info">
+                    <h3>Dune: Part Two</h3>
+                    <p>Epic sci-fi adventure continuing Paul Atreides' journey on the desert planet Arrakis.</p>
+                </div>
+                <div class="duration">2h 46m</div>
+            </div>
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=300&h=200&fit=crop" alt="Action Movie">
+                <div class="card-info">
+                    <h3>John Wick: Chapter 4</h3>
+                    <p>The legendary assassin faces his most deadly adversaries yet in this action-packed thriller.</p>
+                </div>
+                <div class="duration">2h 49m</div>
+            </div>
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=300&h=200&fit=crop" alt="Spider-Man">
+                <div class="card-info">
+                    <h3>Spider-Man: Across the Spider-Verse</h3>
+                    <p>Miles Morales catapults across the Multiverse in this animated masterpiece.</p>
+                </div>
+                <div class="duration">2h 20m</div>
+            </div>
+            <div class="movie-card">
+                <img src="https://images.unsplash.com/photo-1478720568477-b0ac8b6b6bb4?w=300&h=200&fit=crop" alt="Horror Movie">
+                <div class="card-info">
+                    <h3>The Nun II</h3>
+                    <p>The demonic nun Valak returns to terrorize a French boarding school.</p>
+                </div>
+                <div class="duration">1h 50m</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Shows Section -->
+    <section id="popular" class="section">
+        <div class="section-title">
+            <h2>Popular Shows</h2>
+            <p>Binge-worthy series that will keep you hooked</p>
+        </div>
+        <div class="cards-container">
+            <div class="show-card">
+                <img src="https://images.unsplash.com/photo-1560169897-fc0cdbdfa4d5?w=300&h=200&fit=crop" alt="The Last of Us">
+                <div class="show-info">
+                    <h3>The Last of Us</h3>
+                    <div class="show-details">
+                        <span>Drama/Thriller</span>
+                        <span>2 Seasons</span>
+                        <span>19 Episodes</span>
+                    </div>
+                    <p>A post-apocalyptic drama following survivors of a pandemic caused by a fungal infection.</p>
+                </div>
+            </div>
+            <div class="show-card">
+                <img src="https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=300&h=200&fit=crop" alt="House of Dragon">
+                <div class="show-info">
+                    <h3>House of the Dragon</h3>
+                    <div class="show-details">
+                        <span>Fantasy/Drama</span>
+                        <span>2 Seasons</span>
+                        <span>18 Episodes</span>
+                    </div>
+                    <p>The Targaryen civil war comes to life in this Game of Thrones prequel series.</p>
+                </div>
+            </div>
+            <div class="show-card">
+                <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=300&h=200&fit=crop" alt="Wednesday">
+                <div class="show-info">
+                    <h3>Wednesday</h3>
+                    <div class="show-details">
+                        <span>Comedy/Horror</span>
+                        <span>1 Season</span>
+                        <span>8 Episodes</span>
+                    </div>
+                    <p>Wednesday Addams navigates her years as a student at Nevermore Academy.</p>
+                </div>
+            </div>
+            <div class="show-card">
+                <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=300&h=200&fit=crop" alt="Stranger Things">
+                <div class="show-info">
+                    <h3>Stranger Things</h3>
+                    <div class="show-details">
+                        <span>Sci-Fi/Horror</span>
+                        <span>4 Seasons</span>
+                        <span>42 Episodes</span>
+                    </div>
+                    <p>A group of kids in 1980s Indiana uncover supernatural mysteries and alternate dimensions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Reviews Section -->
+    <section id="reviews" class="section">
+        <div class="section-title">
+            <h2>User Reviews</h2>
+            <p>What our community is saying about their favorite movies and shows</p>
+        </div>
+        <div class="reviews-section">
+            <div class="reviews-container">
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b9de94e4?w=50&h=50&fit=crop&crop=face" alt="Sarah Johnson" class="review-avatar">
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <p style="opacity: 0.7; font-size: 0.9rem;">Movie Enthusiast</p>
+                        </div>
+                    </div>
+                    <p>"CineStream has completely transformed how I discover new movies. The recommendations are spot-on, and I love the clean interface!"</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop&crop=face" alt="Mike Chen" class="review-avatar">
+                        <div>
+                            <h4>Mike Chen</h4>
+                            <p style="opacity: 0.7; font-size: 0.9rem;">Series Binge-Watcher</p>
+                        </div>
+                    </div>
+                    <p>"The trending section is always up-to-date with the latest releases. Found my new favorite series through this platform!"</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&h=50&fit=crop&crop=face" alt="Emily Rodriguez" class="review-avatar">
+                        <div>
+                            <h4>Emily Rodriguez</h4>
+                            <p style="opacity: 0.7; font-size: 0.9rem;">Film Critic</p>
+                        </div>
+                    </div>
+                    <p>"As a film critic, I appreciate how CineStream curates quality content. The user reviews section helps me understand audience perspectives."</p>
+                </div>
+            </div>
+            
+            <div class="review-form">
+                <h3 style="color: white; margin-bottom: 1.5rem;">Share Your Review</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="review">Your Review</label>
+                        <textarea id="review" placeholder="Share your thoughts about movies or shows you've watched..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit Review</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="#" class="social-icon" target="_blank">📘</a>
+                <a href="#" class="social-icon" target="_blank">🐦</a>
+                <a href="#" class="social-icon" target="_blank">📷</a>
+                <a href="#" class="social-icon" target="_blank">🎥</a>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.termsandconditionsgenerator.com/live.php?token=example" target="_blank">Terms & Conditions</a>
+                <a href="https://www.privacypolicygenerator.info/live.php?token=example" target="_blank">Privacy Policy</a>
+                <a href="#" target="_blank">About Us</a>
+                <a href="#" target="_blank">Contact</a>
+            </div>
+            <p style="margin-top: 2rem; opacity: 0.7;">&copy; 2025 CineStream. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="document.getElementById('hero').scrollIntoView()">↑</button>
+</body>
+</html>
